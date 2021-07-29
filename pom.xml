@@ -17,5 +17,17 @@
   </dependencies>
   <build>
     <finalName>GSASampleJava</finalName>
+      <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
+      </plugin>
+     </plugins>
+
+Jenkinsfiles: https://github.com/gayatri-sa/jenkinsfiles
+SampleJava: https://github.com/gayatri-sa/samplejava
+SampleJavaWithJunit: https://github.com/gayatri-sa/samplejavawithjunit
+Jenkins Pipeline: https://github.com/gayatri-sa/jenkins-pipeline
   </build>
 </project>
